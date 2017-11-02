@@ -3,7 +3,7 @@ Todo application using Node.js, Express, postrges, Knex.js, and handlebars
 
 ## Getting Started
 
-    ### Prerequisites
+### Prerequisites
 
     * Install [Node](https://nodejs.org/en/download/)
 
@@ -40,8 +40,8 @@ Todo application using Node.js, Express, postrges, Knex.js, and handlebars
 
 ## Setting up database with Knex.js
 
-    ### Prerequisites
-    
+### Prerequisites
+
     * Install [Postgres](https://www.postgresql.org/download/)
 
     * Install [Postres.app](https://postgresapp.com/)
