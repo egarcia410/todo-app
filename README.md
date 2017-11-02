@@ -46,3 +46,27 @@
         $ knex migrate:latest
 
     **A table will be created in your database**
+
+9. Create `db` folder
+
+        $ mkdir db
+
+10. Create `knex.js` file inside `db` folder
+
+        $ touch db/knex.js
+
+11. Insert into `knex.js`:
+
+        let environment = process.env.NODE_ENV || 'development';
+        let config = require('../knexfile.js')[environment];
+        module.exports = require('knex')(config);
+
+    **acquires database client and connection**
+
+12. Require the exported module in file where queries will be made
+
+    Example:
+
+        const knex = require('./db/knex');
+
+
