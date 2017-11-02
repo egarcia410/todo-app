@@ -5,7 +5,7 @@ Todo application using Node.js, Express, postrges, Knex.js, and handlebars
 
 ### Prerequisites
 
-    * Install [Node](https://nodejs.org/en/download/)
+* Install [Node](https://nodejs.org/en/download/)
 
 1. Clone Repository:
 
@@ -42,11 +42,11 @@ Todo application using Node.js, Express, postrges, Knex.js, and handlebars
 
 ### Prerequisites
 
-    * Install [Postgres](https://www.postgresql.org/download/)
+* Install [Postgres](https://www.postgresql.org/download/)
 
-    * Install [Postres.app](https://postgresapp.com/)
+* Install [Postres.app](https://postgresapp.com/)
 
-    * Initialize server in Postgres.app
+* Initialize server in Postgres.app
 
 1. Enter PostgreSQL shell
 
