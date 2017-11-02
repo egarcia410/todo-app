@@ -1,4 +1,50 @@
-# Setting up database with Knex.js
+# Todo App
+Todo application using Node.js, Express, postrges, Knex.js, and handlebars
+
+## Getting Started
+
+    ### Prerequisites
+    * Install [Node](https://nodejs.org/en/download/)
+
+1. Clone Repository:
+
+        $ git clone https://github.com/egarcia410/todo-app.git
+
+2. Change Directory:
+
+        $ cd todo-app
+
+3. Install Dependencies:
+
+        $ npm install
+
+4. Enter PostgreSQL shell
+
+        $ psql
+
+5. Inside PostgreSQL shell, create a database called `todos`
+
+        =# CREATE DATABASE todos
+
+6. Update your database
+
+        $ knex migrate:latest
+
+    **A table will be created in your database called todos**
+
+7. Run Program:
+
+        $ nodemon server.js
+
+
+## Setting up database with Knex.js
+
+    ### Prerequisites
+    * Install [Postgres](https://www.postgresql.org/download/)
+
+    * Install [Postres.app](https://postgresapp.com/)
+
+    * Initialize server in Postgres.app
 
 1. Enter PostgreSQL shell
 
@@ -25,7 +71,7 @@
         module.exports = {
             development: {
                 client: 'pg',
-                connection: 'postgres://localhost/<NAME OF DATABASE>'
+                connection: 'postgres://localhost/<NAME_OF_DATABASE>'
             },
             production: {
                 client: 'postgresql',

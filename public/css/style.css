@@ -1,0 +1,72 @@
+html {
+    background-color: #0D3F5E;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+ .title {
+    text-align: center;
+    grid-column: 2 / 9;
+    grid-row: 1;
+    margin-top: 20px;
+    color: #5CB7E4;
+}
+
+.todoForm {
+    grid-column: 3 / 8;
+    grid-row: 2;
+}
+
+.todoInput {
+    border-radius: 15px;
+    height: 60px;
+}
+
+.todoButton {
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.todos {
+    grid-column: 3 / 8;
+    grid-row: 3;
+    background-color: white;
+}
+
+.mark {
+    margin-right: 10px;
+}
+
+.complete {
+    color: green;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+#deleteForm {
+    display: flex;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.deleteButton {
+    color: red;
+}
+
+.todoItem {
+    font-size: 30px;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
